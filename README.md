@@ -10,6 +10,8 @@ The user can change the brightness of monitors, including external ones, either 
 ![Screenshot](Images/Screenshot_unison.png)<br>
 (DPI: 100%)
 
+You can also adjust the brightness of all monitors at once by simply scrolling the mouse wheel on the taskbar icon, without having to open the application window.
+
 In addition, the user can change the adjustable range of brightness and contrast for each monitor seamlessly.
 
 ![Screenshot](Images/Screenshot_range.png)&nbsp;

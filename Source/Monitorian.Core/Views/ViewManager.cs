@@ -18,6 +18,7 @@ public static class ViewManager
 
 	public static bool IsIconWheelEnabled()
 	{
-		return AppKeeper.StandardArguments.Select(x => x.ToLower()).Contains(IconWheelOption);
+		// Always enable the icon wheel feature by default
+		return true;
 	}
 }

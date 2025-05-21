@@ -439,3 +439,15 @@ You can unload all loaded commands using `/unload` option.
 ```
 monitorian /unload
 ```
+
+### Taskbar Icon Scrolling
+
+The taskbar icon scrolling feature allows you to adjust the brightness of one or all monitors by scrolling the mouse wheel while hovering over the Monitorian taskbar icon. This provides a quick way to adjust brightness without having to open the application window.
+
+This feature is now enabled by default, but was previously enabled with the `/iconwheel` option:
+
+```
+monitorian /iconwheel
+```
+
+The mouse wheel scrolling will adjust brightness for the currently selected monitor or in unison mode for all monitors.

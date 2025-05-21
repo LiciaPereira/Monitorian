@@ -89,7 +89,7 @@ public class AppControllerCore
 		NotifyIconContainer.MouseLeftButtonClick += OnMainWindowShowRequestedBySelf;
 		NotifyIconContainer.MouseRightButtonClick += OnMenuWindowShowRequested;
 
-		if (ViewManager.IsIconWheelEnabled())
+		// Always enable taskbar icon scrolling to adjust brightness
 			NotifyIconContainer.MouseWheel += (_, delta) => ReflectMouseWheel(delta);
 
 		_sessionWatcher.Subscribe((e) => OnMonitorsChangeInferred(nameof(SessionWatcher), e));
